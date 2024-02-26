@@ -6,30 +6,36 @@ This React application utilizes Redux Toolkit to manage a nested array structure
 
 The top-level array in the Redux store represents sections. Each section contains:
 
-####ID:#### Unique identifier for the section.
-####Section Name:#### Name or title of the section.
-####Subsections Array:#### An array containing subsections associated with the section.
+- **ID:** Unique identifier for the section.
+- **Section Name:** Name or title of the section.
+- **Subsections Array:** An array containing subsections associated with the section.
 
 ## Subsections Array
 
 Each subsection within a section contains:
 
--   ####ID:#### Unique identifier for the subsection.
--   ####Heading:#### Name or title of the subsection.
--   ####Image:#### Image associated with the subsection.
+- **ID:** Unique identifier for the subsection.
+- **Heading:** Name or title of the subsection.
+- **Image:** Image associated with the subsection.
 
 The application provides functionalities to manipulate this nested array structure:
 
--   ####Adding Section:#### Adds a new section to the sections array.
--   ####Adding Subsection:#### Adds a new subsection to a specific section.
--   ####Updating Section Name:#### Modifies the name of a section.
--   ####Updating Subsection:#### Modifies the name or image of a subsection.
--   ####Deleting Section:#### Removes a section and all its associated subsections from the array.
--   ####Deleting Subsection:#### Removes a specific subsection from its parent section.
+- **Adding Section:** Adds a new section to the sections array.
+- **Adding Subsection:** Adds a new subsection to a specific section.
+- **Updating Section Name:** Modifies the name of a section.
+- **Updating Subsection:** Modifies the name or image of a subsection.
+- **Deleting Section:** Removes a section and all its associated subsections from the array.
+- **Deleting Subsection:** Removes a specific subsection from its parent section.
 
 Additionally, the application employs Tailwind CSS for styling purposes, providing a responsive and visually appealing user interface for managing the nested array of feature sections and subsections.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run the application locally:
+
+1. Clone this repository.
+2. Navigate to the project directory.
+3. Run `npm install` to install dependencies.
+4. Run `npm start` to start the development server.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
