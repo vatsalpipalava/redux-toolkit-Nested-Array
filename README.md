@@ -6,9 +6,9 @@ This React application utilizes Redux Toolkit to manage a nested array structure
 
 The top-level array in the Redux store represents sections. Each section contains:
 
-*   ####ID:#### Unique identifier for the section.
-*   ####Section Name:#### Name or title of the section.
-*   ####Subsections Array:#### An array containing subsections associated with the section.
+####ID:#### Unique identifier for the section.
+####Section Name:#### Name or title of the section.
+####Subsections Array:#### An array containing subsections associated with the section.
 
 ## Subsections Array
 
